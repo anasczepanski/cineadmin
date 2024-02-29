@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cine Admin</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cine Admin</h1>
+    <form id="form">
+      <input type="text" id="title" placeholder="Título do Filme" required>
+      <input type="text" id="director" placeholder="Diretor do Filme" required>
+      <input type="number" id="year" placeholder="Ano de Lançamento" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+    <div id="message"></div>
+    <hr>
+    <input type="text" id="search" placeholder="Pesquisar Filme">
+    <button onclick="searchMovies()">Pesquisar</button>
+    <div id="movieList"></div>
+  </div>
+  <script src="./js/cadastro.js"></script>
+</body>
+</html>
+
