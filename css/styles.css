@@ -2,3 +2,25 @@
 @import './login.css';
 @import './fontes.css';
 @import './filmes.css';
+
+#movieList > div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    background: rgb(122, 122, 122);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    gap: 5px;
+}
+
+#movieList button{
+    color: #c7c7c7;
+}
+
+#message {
+    margin-top: 16px;
+    color: #6b6b6b;
+}

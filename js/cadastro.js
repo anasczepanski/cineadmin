@@ -29,10 +29,12 @@ function displayMovies() {
   movies.forEach(function(movie, index) {
     const movieItem = document.createElement('div');
     movieItem.innerHTML = `
+    <div class="movie-items">
       <p><strong>Título:</strong> ${movie.title}</p>
       <p><strong>Diretor:</strong> ${movie.director}</p>
       <p><strong>Ano:</strong> ${movie.year}</p>
       <button onclick="deleteMovie(${index})">Excluir</button>
+      </div>
     `;
     movieList.appendChild(movieItem);
   });
