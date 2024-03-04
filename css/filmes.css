@@ -1,0 +1,21 @@
+input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pesquisa{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pesquisa input{
+    margin-bottom: 0;
+    background-image: url('../img/lupa.svg');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    width: 150px;
+}

@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cine Admin</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/scripts.js" type="module" ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="./js/scripts.js" type="module"></script>
 </head>
+
 <body>
-    <h1>CINE ADMIN</h1>
-    <form id="form">
-        <label for="login">Login</label>
-        <input type="text" id="login">
+    <div class="login-form">
+        <div class="conteudo">
+        <h1 class="titulo-fonte">CINE ADMIN</h1>
+        <form id="form">
+            <label class="label-login titulo-label" for="login">Login</label>
+            <input type="text" id="login">
 
-        <label for="password">Senha</label>
-        <input type="password" id="password">
+            <label class="label-senha titulo-label" for="password">Senha</label>
+            <input type="password" id="password">
 
-        <button onclick="enviar()" type="submit" id="enviar">Enviar</button>
-    </form>
+            <button onclick="enviar()" type="submit" id="enviar">Enviar</button>
+        </form>
+    </div>
+    </div>
+
+    <footer class="titulo-label"><p>Trabalho produzido na FIAP.</p></footer>
 </body>
+
 </html>

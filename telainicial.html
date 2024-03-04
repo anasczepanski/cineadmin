@@ -4,11 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cine Admin</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h1>Cine Admin</h1>
+  <div class="login-form">
+    <div class="conteudo">
+    <h1 class="titulo-fonte">CINE ADMIN</h1>
     <form id="form">
       <input type="text" id="title" placeholder="Título do Filme" required>
       <input type="text" id="director" placeholder="Diretor do Filme" required>
@@ -17,11 +23,15 @@
     </form>
     <div id="message"></div>
     <hr>
+    <div class="pesquisa">
     <input type="text" id="search" placeholder="Pesquisar Filme">
     <button onclick="searchMovies()">Pesquisar</button>
+  </div>
     <div id="movieList"></div>
   </div>
+  </div>
   <script src="./js/cadastro.js"></script>
+  <footer class="titulo-label"><p>Trabalho produzido na FIAP.</p></footer>
 </body>
 </html>
 

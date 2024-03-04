@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.login-form {
+    background-color: #f2f2f2;
+    flex: 1;
+    padding-top: 160px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.label-login{
+    display:flex;
+    align-items: center;
+}
+.label-login::before{
+    content: "";
+    background-image: url('../img/cadeado.svg');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.label-senha{
+    display:flex;
+    align-items: center;
+}
+.label-senha::before{
+    content: "";
+    background-image: url('../img/asterisco.svg');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.login-form h1{
+    margin-bottom: 40px;
+}
+
+.login-form label {
+    margin-bottom: 10px;
+}
+
+.login-form form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 32px;
+    font-family: inherit;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.login-form button {
+    display: inline-block;
+    box-sizing: border-box;
+    width: fit-content;
+    margin-left: auto;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    background: #000;
+    color: #fff;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #000;
+    color: #f2f2f2;
+}
